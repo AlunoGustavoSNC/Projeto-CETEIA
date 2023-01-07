@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding: 0;
+    background: white;
+    font: 85% arial, helvetica, sans-serif;
+    text-align: center;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "aside aside"
+    "footer footer";
+    grid-template-rows: 80px 100px 20px 80px;
+
+}
+
+header{
+    grid-area: header;   
+}
+main{
+    margin: 0px;
+    text-align: center;
+    grid-area: main;
+    background: violet
+}
+
+aside{
+    grid-area: aside;
+    flex-basis: 25%;
+    background: yellow;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left;
+}
+.card-body{
+    background: green;
+}
+
+footer{
+    grid-area: footer;
+    background: blue;
+    
+}
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center;
+}
