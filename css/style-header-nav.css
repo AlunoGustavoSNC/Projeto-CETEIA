@@ -1,0 +1,38 @@
+:root{
+    --color-header-footer: #81B622;
+    --color-nav: #59981A;
+    --color-font-1: #ffff;
+}
+
+header{
+    background-color: var(--color-header-footer);
+    color: var(--color-font-1);
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#container-logo-if{
+    width: 120px;
+    height: 100%;    
+}
+
+.container-titulo h1{
+    background-color: aqua;
+    font-family: staatliches, sans serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+#navbar{
+    background-color: var(--color-nav);
+    width: 100%;
+    height: 35px;
+}
+
+li{
+    display: none;
+}
