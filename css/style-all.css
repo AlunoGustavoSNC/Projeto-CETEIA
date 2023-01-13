@@ -12,7 +12,7 @@ main{
 }
 
 .disabled{
-    display: none;
+    display: none !important;
 }
 
 .disabled-nav{
@@ -27,7 +27,7 @@ main{
     letter-spacing: 1px;
 }
 
-h1{
+.titulo-1{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -36,9 +36,10 @@ h1{
     margin: 24px 0px 16px 0px;
 }
 
-h2{
+.sub-titulo-1{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 28px;
 }
+

@@ -22,7 +22,13 @@
 .img-galeria{
 	background-color: rgb(216, 216, 216);
 	width: 350px;
-	height: 220px;
+	aspect-ratio: 16/10;
+	object-fit: cover;
 	border: 1px #6D6D6D solid;
+    overflow: clip;
+}
+
+.img-galeria:hover{
+	border: 1px #000000 solid;
 }
 
