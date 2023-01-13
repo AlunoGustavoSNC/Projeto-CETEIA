@@ -92,9 +92,6 @@ footer{
     column-rule: #ffff solid 1px;
 
     padding-top: 10px;
-
-    position: absolute;
-    bottom: 0;
 }
 
 #footer-left{

@@ -1,0 +1,28 @@
+.galeria::before{
+	content: '';
+	background-color: black;
+	width: 1000px;
+	height: 1px;
+	margin: 0 auto;
+}
+
+.galeria{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-bottom: 24px;
+}
+
+.titulo-g{
+	width: 100%;
+	margin: 8px 0px 8px 0px;
+}
+
+.img-galeria{
+	background-color: rgb(216, 216, 216);
+	width: 350px;
+	height: 220px;
+	border: 1px #6D6D6D solid;
+}
+
