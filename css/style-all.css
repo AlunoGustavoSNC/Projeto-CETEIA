@@ -3,10 +3,13 @@
     padding: 0;
 }
 
-
+body{
+    background-image: url(../img/background-gradient_compressed.png);
+    background-repeat: no-repeat;
+}
 
 main{
-    width: 1080px;
+    width: 1000px;
     height: 100%;
     margin: auto;
 }
