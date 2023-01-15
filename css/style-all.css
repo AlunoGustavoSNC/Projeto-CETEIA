@@ -63,3 +63,18 @@ main{
     font-size: 40px;
 }
 
+.style-btn{
+    background-color: #ffff;
+    color: var(--color-buttons);
+    border: 2px solid var(--color-buttons);
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.style-btn:hover{
+    background-color: var(--color-buttons);
+    color: #ffff;
+    transition: 0.5s;
+}
+

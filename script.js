@@ -34,3 +34,20 @@ function slide4(){
     autoBtn2.removeAttribute('class', 'color')
     autoBtn3.removeAttribute('class', 'color')
 }
+
+function verMais(){
+    var imgG = document.getElementsByClassName('oculto')
+
+    for(var i = 0; i < 3; i++){
+    imgG[i].classList.remove('disabled')
+    }
+
+    linkGaleria()
+}
+
+function linkGaleria(){
+    var linkG = document.getElementsByClassName('ver-mais-galeria')
+
+    linkG[0].classList.add('disabled') 
+    linkG[1].classList.remove('disabled') 
+}

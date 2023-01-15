@@ -12,6 +12,7 @@
     border: 1px solid var(--color-border);
     border-radius: 25px;
     overflow: hidden;
+    margin: 0 0 80px 0;
 }
 
 .slider input{
@@ -138,10 +139,6 @@
 
 .slide-artigo-btn a{
     font-size: 20px ;
-    color: var(--color-buttons);
-    border: 2px solid var(--color-buttons);
-    padding: 5px 15px;
-    border-radius: 10px;
 }
 
 .slide-img{
@@ -153,4 +150,119 @@
     border-radius: 10px;
 }
 
-/*CARD SLIDE início*/
+/*CARD SLIDE fim*/
+
+/*SISTEMAS início*/
+
+.sistemas-card-group{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 455px;
+    height: 250px;
+    padding: 15px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    background-image: linear-gradient(to top, #CDE0BA, transparent);
+}
+
+.card-txt{
+    height: 215px;
+}
+
+.card-txt h2{
+    margin: 0 0 16px 0;
+    text-shadow: 1px 3px 10px #00000050;;
+}
+
+.card-txt p:not(:last-child){
+    margin: 0 0 12px 0;
+}
+
+.card a{
+    box-shadow: 1px 3px 10px #00000050;
+}
+
+#ver-mais-sistemas{
+    margin-top: 10px;
+    color: black;
+    font-size: 22px;
+    transition: 1s;
+}
+
+#ver-mais-sistemas:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.ver-mais-sistema{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ver-mais-sistema::after{
+    content: '';
+    width: 900px;
+    height: 1px;
+    background-color: var(--color-border);
+    margin-top: 30px;
+}
+
+/*SISTEMAS fim*/
+
+/*GALERIA início*/
+
+#galeria h2{
+    margin-top: 54px;
+}
+
+.galeria-card{
+    background-color: #ffff;
+    width: 940px;
+    padding: 30px;
+    border: 1px solid var(--color-border);
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galeria-img{
+    background-color: rgb(203, 203, 203);
+    width: 30%;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    margin-bottom: 20px;
+}
+
+.ver-mais-galeria{
+    color: black;
+    font-size: 22px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.ver-mais-galeria:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.ver-mais{
+    width: 940px;
+    display: flex;
+    justify-content: center;
+}
+
+/*GALERIA fim*/
+
