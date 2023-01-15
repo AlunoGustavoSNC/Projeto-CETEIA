@@ -3,12 +3,15 @@
     --color-buttons: #2E81E2;
 }
 
+/*SLIDER inicio*/
+
 .slider{
     background-color: #ffff;
     width: 1000px;
     height: 450px;
     border: 1px solid var(--color-border);
     border-radius: 25px;
+    overflow: hidden;
 }
 
 .slider input{
@@ -32,13 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.card-slide{
-    background-color: bisque;
-    width: 950px;
-    height: 390px;
-    margin-bottom: 30px;
 }
 
 /*NAVEGAÇÃO MANUAL*/
@@ -93,7 +89,7 @@
 
 .navigation-auto div{
     padding: 8px;
-    border: 2px solid aqua;
+    border: 2px solid var(--color-buttons);
     border-radius: 50%;
     cursor: pointer;
     transition: 1s;
@@ -107,3 +103,54 @@
     background-color: var(--color-buttons);
 }
 
+/*SLIDER final*/
+
+/*CARD SLIDE início*/
+
+.card-slide{
+    width: 950px;
+    height: 390px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.slide-artigo{
+    width: 400px;
+    height: 320px;
+}
+
+.slide-artigo-txt{
+    width: 100%;
+    height: 260px;
+}
+
+.slide-artigo-txt h2{
+    margin: 0px 0px 16px 0px;
+}
+
+.slide-artigo-txt p{
+    margin: 0 0 40px 0;
+}
+
+.slide-artigo-btn a{
+    font-size: 20px ;
+    color: var(--color-buttons);
+    border: 2px solid var(--color-buttons);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.slide-img{
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+}
+
+/*CARD SLIDE início*/

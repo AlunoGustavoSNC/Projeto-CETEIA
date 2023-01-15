@@ -25,7 +25,7 @@
 	aspect-ratio: 16/10;
 	object-fit: cover;
 	border: 1px #6D6D6D solid;
-    overflow: clip;
+    overflow: hidden;
 }
 
 .img-galeria:hover{

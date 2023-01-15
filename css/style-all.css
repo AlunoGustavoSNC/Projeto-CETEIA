@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
@@ -30,11 +31,20 @@ main{
     letter-spacing: 1px;
 }
 
+.font-p2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
 .titulo-1{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
     margin: 24px 0px 16px 0px;
 }
@@ -43,6 +53,13 @@ main{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 32px;
+}
+
+.sub-titulo-2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
 }
 
