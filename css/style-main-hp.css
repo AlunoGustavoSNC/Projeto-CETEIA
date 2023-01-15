@@ -3,6 +3,14 @@
     --color-buttons: #2E81E2;
 }
 
+body{
+    background-image: 
+        url(../img/background-gradient_compressed.png),
+        url(../img/wave-haikei.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, 0px 1480px;
+}
+
 /*SLIDER inicio*/
 
 .slider{
@@ -208,20 +216,12 @@
     justify-content: center;
 }
 
-.ver-mais-sistema::after{
-    content: '';
-    width: 900px;
-    height: 1px;
-    background-color: var(--color-border);
-    margin-top: 30px;
-}
-
 /*SISTEMAS fim*/
 
 /*GALERIA início*/
 
 #galeria h2{
-    margin-top: 54px;
+    margin-top: 84px;
 }
 
 .galeria-card{
