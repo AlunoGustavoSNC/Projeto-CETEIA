@@ -46,10 +46,10 @@
           		<a class="nav-link" href="./galeria.html">Galeria</a>
         	</li>
         	<li class="nav-item">
-        	  	<a class="nav-link disabled">Extensão</a>
+        	  	<a class="nav-link disabled-nav">Extensão</a>
         	</li>
         	<li class="nav-item">
-          		<a class="nav-link disabled">IFbaiano</a>
+          		<a class="nav-link disabled-nav">IFbaiano</a>
         	</li>
       	</ul>
     </nav>
@@ -64,11 +64,12 @@
 		<h1 class="titulo-1">Projetos</h1>
 
 		<div class="slider">
+			
 			<div class="slides">
-				<input type="radio" name="radio-btn" id="radio-1" checked>
-				<input type="radio" name="radio-btn" id="radio-2">
-				<input type="radio" name="radio-btn" id="radio-3">
-				<input type="radio" name="radio-btn" id="radio-4">
+				<input type="radio" name="radio-btn" id="radio-1" value="radio-1" checked>
+				<input type="radio" name="radio-btn" id="radio-2" value="radio-2">
+				<input type="radio" name="radio-btn" id="radio-3" value="radio-3">
+				<input type="radio" name="radio-btn" id="radio-4" value="radio-4">
 
 				<!--SLIDES início-->
 
@@ -125,17 +126,16 @@
 				</section>
 
 				<!--SLIDES fim-->
-
-				
+	
 			</div>
 
 			<!--NAVEGAÇÃO AUTOMÁTICA início disabled-->
 
 			<div class="navigation-auto">
-				<div class="auto-btn1"></div>
-				<div class="auto-btn2"></div>
-				<div class="auto-btn3"></div>
-				<div class="auto-btn4"></div>
+				<div id="auto-btn1" class="color"></div>
+				<div id="auto-btn2"></div>
+				<div id="auto-btn3"></div>
+				<div id="auto-btn4"></div>
 			</div>
 
 			<!--NAVEGAÇÃO AUTOMÁTICA fim-->
@@ -143,13 +143,14 @@
 			<!--NAVEGAÇÃO MANUAL início-->
 
 			<div class="manual-navigation">
-				<label for="radio-1" class="manual-btn" id="btn-1"></label>
-				<label for="radio-2" class="manual-btn"></label>
-				<label for="radio-3" class="manual-btn"></label>
-				<label for="radio-4" class="manual-btn"></label>
+				<label for="radio-1" class="manual-btn" onclick="slide1()"></label>
+				<label for="radio-2" class="manual-btn" onclick="slide2()"></label>
+				<label for="radio-3" class="manual-btn" onclick="slide3()"></label>
+				<label for="radio-4" class="manual-btn" onclick="slide4()"></label>
 			</div>
 			
 			<!--NAVEGAÇÃO MANUAL fim-->
+			
 		</div>
 
 	</section>

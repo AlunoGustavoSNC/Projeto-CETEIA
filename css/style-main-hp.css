@@ -11,12 +11,12 @@
     border-radius: 25px;
 }
 
-/*.slider input{
+.slider input{
     margin: 0;
     padding: 0;
     width: 0;
     height: 0;
-}*/
+}
 
 .slides{
     width: 400%;
@@ -93,7 +93,7 @@
 
 .navigation-auto div{
     padding: 8px;
-    border: 2px solid var(--color-buttons);
+    border: 2px solid aqua;
     border-radius: 50%;
     cursor: pointer;
     transition: 1s;
@@ -103,20 +103,7 @@
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: white;
+.color{
+    background-color: var(--color-buttons);
 }
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: white;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: white;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: white;
-}
-
 
