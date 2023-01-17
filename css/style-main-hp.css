@@ -1,21 +1,22 @@
 :root{
     --color-border: #A1A1A1;
     --color-buttons: #2E81E2;
-}
-
-body{
-    background-image: 
-        url(../img/background-gradient_compressed.png),
-        url(../img/wave-haikei.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top, 0px 1480px;
+    --var-display-tam: 1000px;
 }
 
 /*SLIDER inicio*/
 
+#projetos-hp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .slider{
     background-color: #ffff;
-    width: 1000px;
+    width: var(--var-display-tam);
     height: 450px;
     border: 1px solid var(--color-border);
     border-radius: 25px;
@@ -162,10 +163,18 @@ body{
 
 /*SISTEMAS início*/
 
+#sistemas-hp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sistemas-card-group{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: var(--var-display-tam);
 }
 
 .card{
@@ -220,7 +229,17 @@ body{
 
 /*GALERIA início*/
 
-#galeria h2{
+#galeria-hp{
+    background-image: url(../img/wave-haikei.jpg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+
+#galeria-hp h2{
     margin-top: 84px;
 }
 

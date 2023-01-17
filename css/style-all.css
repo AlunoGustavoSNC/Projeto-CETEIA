@@ -10,15 +10,14 @@
 }
 
 body{
-    background-image: url(../img/background-gradient_compressed.png);
+    background-image:
+        url(../img/background-gradient_compressed.png);
     background-repeat: no-repeat;
     width: 100%;
 }
 
 main{
-    width: 1000px;
-    height: 100%;
-    margin: auto;
+    width: 100%;
 }
 
 .disabled{
@@ -52,6 +51,15 @@ main{
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
+    text-align: center;
+    margin: 24px 0px 16px 0px;
+}
+
+.titulo-2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
     text-align: center;
     margin: 24px 0px 16px 0px;
 }

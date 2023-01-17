@@ -1,4 +1,23 @@
-.galeria::before{
+:root{
+    --color-border: #A1A1A1;
+    --color-buttons: #2E81E2;
+}
+
+#galeria{
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-image: 
+		url(../img/background-gradient_compressed.png),
+		url(../img/wave-haikei-small.jpg);
+	background-repeat: no-repeat;
+	background-position: top, bottom;
+}
+
+.galeria-card::before{
 	content: '';
 	background-color: black;
 	width: 1000px;
@@ -6,7 +25,8 @@
 	margin: 0 auto;
 }
 
-.galeria{
+.galeria-card{
+	width: 1000px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -24,7 +44,7 @@
 	width: 325px;
 	aspect-ratio: 16/10;
 	object-fit: cover;
-	border: 1px #6D6D6D solid;
+	border: 1px var(--color-border) solid;
     overflow: hidden;
 }
 
