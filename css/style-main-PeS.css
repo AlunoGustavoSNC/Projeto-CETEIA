@@ -1,0 +1,59 @@
+/*PeS = Projetos e Sistemas*/
+
+/*CARD PROJETOS-SISTEMAS início*/
+
+.section-PeS{
+    background-color: #59981A20;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    width: 960px;
+    padding: 20px;
+    height: 300px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-right{
+    flex-direction: row-reverse !important;
+}
+
+.img-left{
+    flex-direction: row !important;
+}
+
+.PeS-img{
+    background-color: #d7d7d7;
+    border: 1px solid var(--color-border);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    width: 460px;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.PeS-artigo{
+    width: 460px;
+    aspect-ratio: 16/10;
+}
+
+.PeS-artigo-txt{
+    width: 100%;
+    aspect-ratio: 16/8;
+}
+
+.PeS-artigo-txt h2{
+    margin-bottom: 12px;
+}
+
+.PeS-artigo-txt p{
+    margin: 8px 0 16px 0;
+}
+
+.PeS-artigo-btn{
+    width: 100%;
+    aspect-ratio: 16/2;
+}
+
+/*CARD PROJETOS-SISTEMAS fim*/

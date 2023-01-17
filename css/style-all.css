@@ -1,3 +1,8 @@
+:root{
+    --color-border: #A1A1A1;
+    --color-buttons: #2E81E2;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +27,7 @@ main{
 
 .disabled-nav{
     color: rgb(210, 210, 210) !important;
+    cursor: pointer;
 }
 
 .font-p1{
@@ -98,4 +104,3 @@ main{
 }
 
 /*SCROLLBAR fim*/
-
