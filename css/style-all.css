@@ -93,6 +93,11 @@ main{
     transition: 0.5s;
 }
 
+.style-btn:active{
+    background-color: green;
+    color: #ffff;
+}
+
 /*SCROLLBAR início*/
 
 ::-webkit-scrollbar{
@@ -112,3 +117,39 @@ main{
 }
 
 /*SCROLLBAR fim*/
+
+/*RESPONSIVO 01 início*/
+
+@media screen and (max-width: 1100px){
+    
+    .font-p1{
+        font-size: 16px;
+        margin: 4px 0px 4px 0px;
+    }
+
+    .font-p2{
+        font-size: 16px;
+        margin: 4px 0px 4px 0px;
+    }
+
+    .titulo-1{
+        font-size: 40px;
+        margin: 24px 0px 16px 0px;
+    }
+
+    .titulo-2{
+        font-size: 32px;
+        margin: 24px 0px 16px 0px;
+    }
+
+    .sub-titulo-1{
+        font-size: 26px;
+    }
+
+    .sub-titulo-2{
+        font-size: 34px;
+    }
+    
+}
+
+/*RESPONSIVO 01 fim*/

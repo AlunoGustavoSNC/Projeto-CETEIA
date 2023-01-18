@@ -17,7 +17,7 @@
 .slider{
     background-color: #ffff;
     width: var(--var-display-tam);
-    height: 450px;
+    aspect-ratio: 13/6;
     border: 1px solid var(--color-border);
     border-radius: 25px;
     overflow: hidden;
@@ -33,14 +33,14 @@
 
 .slides{
     width: 400%;
-    height: 450px;
+    height: 100%;
 
     display: flex;
 }
 
 .slide{
-    width: 1000px;
-    height: 450px;
+    width: 25%;
+    height: 100%;
 
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@
 /*NAVEGAÇÃO MANUAL*/
 
 .manual-navigation{
-    width: 1000px;
+    width: var(--var-display-tam);
     margin-top: -19px;
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@
 /*NAVEGAÇÃO AUTOMÁTICA disabled*/
 
 .navigation-auto{
-    width: 1000px;
+    width: var(--var-display-tam);
     margin-top: -35px;
     display: flex;
     justify-content: center;
@@ -118,8 +118,8 @@
 /*CARD SLIDE início*/
 
 .card-slide{
-    width: 950px;
-    height: 390px;
+    width: 95%;
+    aspect-ratio: 13/5;
     margin-bottom: 30px;
 
     display: flex;
@@ -129,13 +129,13 @@
 }
 
 .slide-artigo{
-    width: 400px;
-    height: 320px;
+    width: 42%;
+    height: 90%;
 }
 
 .slide-artigo-txt{
     width: 100%;
-    height: 260px;
+    height: 85%;
 }
 
 .slide-artigo-txt h2{
@@ -151,8 +151,8 @@
 }
 
 .slide-img{
-    width: 500px;
-    height: 320px;
+    width: 54%;
+    height: 90%;
     object-fit: cover;
     overflow: hidden;
     border: 1px solid var(--color-border);
@@ -178,8 +178,8 @@
 }
 
 .card{
-    width: 455px;
-    height: 250px;
+    width: 45%;
+    height: 260px;
     padding: 15px;
 
     border: 1px solid var(--color-border);
@@ -190,12 +190,12 @@
 }
 
 .card-txt{
-    height: 215px;
+    height: 90%;
 }
 
 .card-txt h2{
     margin: 0 0 16px 0;
-    text-shadow: 1px 3px 10px #00000050;;
+    text-shadow: 0px 0px 10px #00000080;;
 }
 
 .card-txt p:not(:last-child){
@@ -203,7 +203,7 @@
 }
 
 .card a{
-    box-shadow: 1px 3px 10px #00000050;
+    box-shadow: 0px 0px 10px #00000080;
 }
 
 #ver-mais-sistemas{
@@ -278,10 +278,152 @@
 }
 
 .ver-mais{
-    width: 940px;
+    width: var(--var-display-tam);
     display: flex;
     justify-content: center;
 }
 
 /*GALERIA fim*/
 
+/*RESPONSIVO 01 início*/
+
+@media screen and (max-width: 1100px){
+    
+    :root{
+        --var-display-tam: 800px;
+    }
+    
+    .slide-artigo-btn a{
+        font-size: 16px ;
+    }
+
+    .galeria-card{
+        width: 740px;
+        padding: 30px;
+    }
+
+}
+
+/*RESPONSIVO 01 fim*/
+
+/*RESPONSIVO 02 início*/
+
+@media screen and (max-width: 850px){
+    
+    :root{
+        --var-display-tam: 600px;
+    }
+
+    /*PROJETOS início*/
+
+    .slider{
+        width: var(--var-display-tam);
+        aspect-ratio: 10/10;        
+    }
+
+    .slide{
+        width: 25%;
+        height: 100%;
+    
+        flex-direction: column;
+    }
+
+    /*CARD SLIDE fim*/
+
+    .card-slide{
+        width: 95%;
+        height: 90%;
+    
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slide-img{
+        width: 90%;
+        height: 55%;
+    }
+    
+    .slide-artigo{
+        width: 90%;
+        height: 40%;
+    }
+    
+    .slide-artigo-txt{
+        width: 100%;
+        height: 80%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .slide-artigo-txt h2{
+        text-align: center;
+        margin: 0px 0px 8px 0px;
+    }
+    
+    .slide-artigo-txt p{
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .slide-artigo-btn{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slide-artigo-btn a{
+        padding: 5px 80px;
+        font-size: 16px ;
+    }
+
+    /*CARD SLIDE fim*/
+
+    /*PROJETOS fim*/
+
+    /*SISTEMAS início*/
+
+    .card{
+        width: 100%;
+        height: 200px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-txt{
+        height: 85%;
+    }
+
+    .card a{
+        padding: 5px 50px;
+    }
+
+    /*SISTEMAS fim*/
+
+    /*GALERIA*/
+
+    .galeria-card{
+        width: 570px;
+        padding: 15px;
+
+        align-items: center;
+    }
+
+    .galeria-img{
+        width: 32%;
+        aspect-ratio: 4/3;
+        margin-bottom: 10px;
+    }
+
+
+    /*GALERIA*/
+
+    
+
+}
+
+/*RESPONSIVO 03 fim*/
