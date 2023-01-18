@@ -108,12 +108,30 @@ footer{
 
 /*RESPONSIVO 01 início*/
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 850px){
     
-    :root{
-        --var-display-tam: 800px;
+    footer{
+        padding-top: 20px;
+        height: 90px;
+        column-count: 1;
     }
 
 }
 
 /*RESPONSIVO 01 fim*/
+
+/*RESPONSIVO 02 início*/
+
+@media screen and (max-width: 650px){
+
+    header{
+        box-shadow: 0px 5px 10px #00000050 ;
+    }
+    
+    #nav-bar{
+        display: none;
+    } 
+
+}
+
+/*RESPONSIVO 02 fim*/

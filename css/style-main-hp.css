@@ -426,4 +426,35 @@
 
 }
 
+/*RESPONSIVO 02 fim*/
+
+/*RESPONSIVO 03 início*/
+
+@media screen and (max-width: 650px){
+    
+    :root{
+        --var-display-tam: 100%;
+    }
+
+    /*TAMANHO DO DISPLAY*/
+
+    #projetos-hp, #sistemas-hp{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .galeria-card{
+        width: 92%;
+    }
+
+    /*TAMANHO DO DISPLAY*/
+
+    /*PROJETOS início*/
+
+    
+
+    /*PROJETOS fim*/
+}
+
 /*RESPONSIVO 03 fim*/
