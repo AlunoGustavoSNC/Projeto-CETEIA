@@ -19,46 +19,30 @@
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 	</head>
 	<body>
-  	<header>
-    	<div id="container-logo-if">
-        <a href="https://www.ifbaiano.edu.br/unidades/guanambi/" target="_blank">
-          <img class="logo-if" src="img/marca-if-baiano-simples-branca.svg" alt="logo if baiano">
-        </a>
-      </div>
-
-      <div id="container-titulo">
-      	<span>Centro de Tecnologia em Informática e Agronomia</span>
-      	<h1>CETEIA</h1>
-    	</div>      
-    </header>
-
-    <nav id="nav-bar">
-      <ul class="nav-list font-p1">
-        <li class="nav-item">
-        	<a class="nav-link active" aria-current="page" href="#">Início</a>
-        </li>
-
-        <li class="nav-item">
-        	<a class="nav-link" href="./projetos.html">Projetos</a>
-        </li>
-
-        <li class="nav-item">
-        	<a class="nav-link" href="./sistemas.html">Sistemas</a>
-    	  </li>
-				
-        <li class="nav-item">
-        	<a class="nav-link" href="./galeria.html">Galeria</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link disabled-nav">Extensão</a>
-        </li>
-
-        <li class="nav-item">
-        	<a class="nav-link disabled-nav">IFbaiano</a>
-        </li>
-      </ul>
-    </nav>
+	
+	<!-- HEADER -->
+	<header>  
+		<ion-icon name="menu-outline" class="menu is-active"></ion-icon>
+		<div class="card-logo">
+		  <img src="img/marca-if-baiano-simples-branca.svg" alt="">
+		</div>
+		<div class="card-titulo">
+		  <span>Centro de Tecnologia em Informática e Agronomia</span>
+		  <h1>CETEIA</h1>
+		</div>
+	  </header>
+  
+	  <!-- NAVBAR -->
+	  <nav id="nav-bar">
+		<ul class="nav-list font-p1">
+		  <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link">Sistemas</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link">Galeria</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link disabled-nav">Extensão</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link disabled-nav">IF Baiano</a></li>
+		</ul>
+	  </nav>
 
 		<!--CONTEÚDO DA PÁGINA-->	
 
@@ -274,7 +258,9 @@
       </div>
     </footer>
 
-		<script src="script.js"></script>
-
+	<script src="script.js"></script>
+	<script src="menu.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	</body>
 </html>
